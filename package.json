@@ -1,0 +1,39 @@
+{
+  "name": "npsbuddy",
+  "version": "1.0.0",
+  "description": "NPS companion app designed to help find available campgrounds and hikes",
+  "main": "server/index.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonEricEscobedo/npsbuddy.git"
+  },
+  "author": "Jon Eric Escobedo [linkedin.com/in/jonericescobedo]",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonEricEscobedo/npsbuddy/issues"
+  },
+  "homepage": "https://github.com/JonEricEscobedo/npsbuddy#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "redux": "^3.7.2",
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  }
+}
